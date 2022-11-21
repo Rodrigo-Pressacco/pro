@@ -1,0 +1,56 @@
+.cancelar-filtros{
+    background-color: var(--main-color);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    text-align: center;
+    margin-right: 20px;
+    margin-top: 20px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: #fff;
+}
+
+.titulo-filter{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.contenedor-listado {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    justify-content: space-between;
+    margin-bottom: 58px; /*TODO: Agregar variable de altura de footer*/
+    flex-wrap: wrap;
+    margin: 10px 10px;
+    margin-bottom: 90px;
+}
+
+.tarjeta {
+    position: absolute;
+    color: red;
+}
+
+
+.div-General-h3{
+    background-color: #F3F1ED;
+}
+
+.div-General-h3 h3{
+    padding: 20px 20px 0;
+    font-size: 24px;
+    color: #383B58;
+}
+
+@media (max-width: 800px) {
+    .contenedor-listado {
+        flex-direction: column;
+        justify-content: space-between;
+    }
+  
+}

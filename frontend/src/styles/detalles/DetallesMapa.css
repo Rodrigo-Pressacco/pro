@@ -1,0 +1,34 @@
+
+.div-mapa-h3{
+    margin-left: 35px;
+    padding: 20px 0;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 28px;
+}
+
+.div-mapa{
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+    width: 96%;
+    margin: auto;
+}
+
+.div-nombre-mapa h4{
+    margin: 20px 0 0 35px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 19px;
+    color: #383B58;
+}
+
+@media (max-width: 800px){
+}
+
+@media (max-width: 485px){
+
+    
+
+}

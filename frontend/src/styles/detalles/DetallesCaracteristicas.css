@@ -1,0 +1,141 @@
+.div-detalles-h3{    
+    border-bottom: solid var(--main-color) 1px;
+}
+
+.div-detalles-h3 h3{
+    margin-left: 35px;
+    padding: 20px 0;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 28px;
+    color: #3d4161;
+}
+
+
+
+.div-datosCar{
+    display: flex;    
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 50px 35px;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    color: #383B58;
+}
+
+.div-datoUnico{
+    display: flex;    
+    align-items: center;
+}
+
+.div-datoUnico i{
+    margin-right: 20px;
+    color: var(--main-color);
+    font-family: 'Font Awesome 5 Pro';
+}
+
+.columnaNormas{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.tituloNorma {
+    margin-top: 30px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    font-size: 22px;
+    color: #4d5172;
+}
+
+.columnax3 {
+    display: table-cell;  
+    margin: 0 30px 20px 30px;
+    width: 28%;
+    line-height: 40px;
+    font-size: 14px;
+    color: rgb(104, 97, 97);
+}
+
+
+
+.textoNormaEspecifico{
+    line-height: 24px;
+}
+
+.div-detalles-descripcion{
+    padding: 35px;
+}
+
+.div-detalles-descripcion h3{
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 28px;
+    color: #3d4161;
+    margin-bottom: 35px;
+}
+
+.div-detalles-descripcion p{    
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 35px;
+    color: #383B58;
+}
+
+
+@media (max-width: 800px){
+
+    .div-datosCar{
+        margin: 30px 35px;
+    }
+
+    .div-datoUnico{
+        width: 50%;
+        height: 60px;
+    }
+
+
+    .columnaNormas{
+        justify-content: flex-start;
+        flex-direction: row;
+    }
+
+    .columnax3{
+        width: 42%;
+    }
+
+
+}
+
+@media (max-width: 485px){
+
+    .div-datosCar{
+        margin: 15px 15px;
+    }
+
+    .div-detalles-h3 h3{
+        padding: 15px 0;
+        margin-left: 15px;
+    }
+
+    .div-datoUnico{
+        height: 50px;
+    }
+
+    .div-datoUnico i{
+        margin-right: 10px;
+    }
+    
+    .columnax3{
+        width: 90%;        
+    }
+    .tituloNorma {
+        margin-top: 10px;
+    }
+    
+}

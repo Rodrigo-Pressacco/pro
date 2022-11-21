@@ -1,0 +1,250 @@
+@import url("index.css");
+
+.Buscador {
+    background-color: var(--third-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Buscador h1 {
+    padding: 20px;
+    text-align: center;
+    color: #F3F1ED;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.div-Buscador {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    width: 75%;
+}
+
+.div-buscarLugar{
+    width: 39%;
+    position: relative;
+    
+}
+
+
+.div-calendario {
+    width: 39%;
+}
+
+.form-buscadorDestino {
+    width: 100%;
+    margin: 3px 9px 20px 0px;
+    padding-left: 20px;
+    height: 44px;    
+    border-radius: 5px;    
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    border: none;
+}
+
+
+.form-buscadorDestino::placeholder,
+.form-calendarDate::placeholder{
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+}
+
+.form-buscadorDestino:focus,
+.form-calendarDate:focus{
+    outline: none;
+}
+
+.form-calendarDate{
+    width: 100%;
+    height: 44px;
+    border-radius: 5px;
+    padding-left: 20px;
+    margin: 3px 0px 20px 0px;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    border: none;
+
+}
+
+
+
+.form-button{
+    background-color: var(--main-color);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;    
+    color: #FFFFFF;
+    
+    text-align: center;
+    width: 19%;
+    margin: 3px 0px 20px 0px;
+    height: 44px;
+    border: none;
+    border-radius: 5px;
+}
+
+.form-button:hover{
+    background-color: white;
+    color: var(--main-color);
+    border: 3px solid var(--main-color);
+    transition: all .2s ease-in-out;
+}
+
+.buscador-ul{
+    position: absolute;
+    background-color: white;
+    z-index: 1;
+    top: 60px;
+    width: 100%;
+    border: #F3F1ED solid 1px;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+    border-radius: 0px 0px 5px 5px;
+}
+
+.buscador-li{
+    padding: 25px 0 21px 25px;
+    font-weight: bold;
+    line-height: 19px;
+    border-bottom: 1px solid var(--main-color);
+    display: flex;
+    align-items: center;
+}
+
+.buscador-li img{
+    padding: 0 10px 0;
+}
+
+/*DatePicker*/
+
+.react-datepicker__day--in-range,
+.react-datepicker__day--keyboard-selected{
+    background-color: var(--main-color);
+    border-radius: 50%;
+}
+
+.div-calendario .react-datepicker{
+    width: 600px;
+    height: 306px;
+    margin-top: -20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background: #FFFFFF;
+    border: none;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+
+    background: linear-gradient(90deg, 
+                            rgba(255,255,255,1) 49.9% ,
+                            rgba(168,168,168,1) 50% ,
+                            rgba(255,255,255,1) 50.1%) ;
+}
+
+.div-calendario .react-datepicker__header{
+    border-bottom: unset;
+    background-color: #FFFFFF;
+}
+
+.div-calendario .react-datepicker__current-month{
+    margin-bottom: 10px;
+}
+
+.div-calendario .react-datepicker__navigation{
+    top: 10px;
+}
+
+.div-calendario .react-datepicker__navigation--next {
+    right: 10px;
+}
+
+.div-calendario .react-datepicker__navigation--previous{
+    left: 10px;
+}
+
+.div-calendario .react-datepicker__day,
+.div-calendario .react-datepicker__day-name{
+    margin: 5px 4px;
+}
+
+
+
+@media (max-width: 800px){
+    .Buscador h1 {
+        padding: 20px;
+        text-align: center;
+        color: #F3F1ED;
+        font-size: 30px;
+        font-weight: bold;
+    }
+
+    .div-Buscador{
+        width: 90%;
+    }
+
+    .div-calendario {
+        width: 39%;
+    }
+
+    .react-datepicker-wrapper {
+        width: 100%;
+    }
+
+    .div-calendario .react-datepicker{
+        width: 590px;
+    }
+
+
+}
+
+@media (max-width: 485px){
+    .Buscador h1 {
+        padding: 20px;
+        text-align: center;
+        color: #F3F1ED;
+        font-size: 30px;
+        font-weight: bold;
+    }
+
+    .div-Buscador {
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-start;
+        width: 90%;
+        flex-direction: column;
+    }
+
+    .div-buscarLugar {
+        width: 100%;
+    }
+
+    .div-calendario {
+        width: 100%;
+    }
+
+    .form-button {
+        width: 100%;
+    }
+    
+    .div-calendario .react-datepicker{
+        width: 414px;
+        height: 550px;
+        flex-direction: column;
+        background: #FFFFFF;
+    }
+
+    .div-calendario .react-datepicker__day,
+    .div-calendario .react-datepicker__day-name{
+        margin: 4px 10px;
+    }
+
+}

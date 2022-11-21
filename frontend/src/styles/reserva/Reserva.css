@@ -1,0 +1,51 @@
+.div-general-reserva {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: rgba(84, 87, 118, 0.1);
+    padding-bottom: 40px;
+}
+.div-columan-left{
+    width: 65%;
+}
+.div-columan-right{
+    width: 30%;
+}
+
+/*Reserva-datos*/
+.div-reserva-datos form{
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #DFE4EA;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+}
+
+.div-reserva-datos h3,
+.div-reserva-mapa h3,
+.div-reserva-horario h3{
+    margin: 20px 0;  
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 28px;
+    color: #3d4161;
+}
+
+@media (max-width: 800px){
+    .div-general-reserva {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .div-columan-left,
+    .div-columan-right{
+        width: 95%;
+        margin: auto;
+    }
+}
+
+@media (max-width: 485px) {
+    
+}

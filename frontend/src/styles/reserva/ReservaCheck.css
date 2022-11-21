@@ -1,0 +1,206 @@
+
+
+.reserva-contenedor-right{
+    height: 907px;
+    margin-top: 68px;
+    background: #FFFFFF;
+    border: 1px solid #DFE4EA;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+}
+
+.div-general-check h3{
+    margin: 20px  0 20px 20px;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 28px;
+    color: #3d4161;
+}
+
+.reserva-img{
+    height: 300px;
+}
+
+.reserva-nombre{
+    margin: 20px;
+}
+
+.reserva-categoria{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    color: #383B58;
+}
+
+.reserva-nombre h3,
+.reserva-location{
+    margin: 5px  0;
+}
+
+.reserva-location{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    color: #383B58;
+}
+
+.reserva-datos-check{
+    margin: 25px 20px 0;
+    border-top: 1px solid #BEBEBE;
+}
+
+.reserva-datos-check div{
+    display: flex;
+    justify-content: space-between;
+    padding: 38px 0;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;    
+    color: #4F4F50;
+    border-bottom: 1px solid #BEBEBE;
+    
+}
+
+.reserva-boton{
+    margin: 90px auto 0;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #1DBEB4;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.12);
+    border-radius: 5px;
+    height: 50px;
+    position: relative;
+}
+
+
+.tituloSwal {
+    color: #1DBEB4;
+    font-family: "Roboto";
+    font-weight: 700;
+    size: 24px;
+    line-height: 28px;
+}
+
+.textSwal {
+    color: #383B58;
+    font-family: "Roboto";
+    font-weight: 700;
+    size: 20px;
+}
+
+#botonReservaSwal {
+    color: #fff;
+    background-color: #1DBEB4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    
+    text-decoration: none;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+
+.p-obligatorio{
+    
+    position: absolute;
+    top: -50px;
+    padding: 5px 10px;
+    background: #ff000059;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    color: #B00020;
+    border-radius: 8px;
+}
+
+
+@media (max-width: 800px){
+
+    .reserva-contenedor-right{
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .separador-imagen-texto{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .reserva-img{
+        width: 43%;
+        height: 312px;
+    }
+
+    .reserva-contenedor-boton{
+        width: 50%;
+    }
+
+    .reserva-nombre{
+        margin: 0 20px 20px;
+    }
+
+    .reserva-nombre h3, 
+    .reserva-location{
+        margin: 0;
+    }
+    .reserva-datos-check div{
+        padding: 20px 0;
+    }
+
+    .reserva-boton{
+        margin: 38px auto 0;
+    }
+}
+
+@media (max-width: 485px) {
+
+    .reserva-contenedor-right{
+        height: 700px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .separador-imagen-texto{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .reserva-img,
+    .reserva-contenedor-boton{
+        width: 100%;
+    }
+
+    .reserva-img{
+        height: 280px;
+    }
+
+    .reserva-nombre{
+        margin: 20px;
+    }
+
+    .reserva-nombre h3,
+    .reserva-location{
+        margin: 5px 0;
+    }
+    
+    .reserva-categoria{
+        margin-top: 5px;
+    }
+
+    .reserva-boton{
+        margin: 18px auto 0;
+    }
+}

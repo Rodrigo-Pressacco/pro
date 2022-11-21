@@ -1,0 +1,22 @@
+[
+    {
+        "id": "1",
+        "norma": "No se permiten mascotas",
+        "sys": "Se siguen las normas de bioseguridad"
+    },
+    {
+        "id": "2",
+        "norma": "Check - out 3:00 p.m",
+        "sys": "Detectores de humo"
+    },
+    {
+        "id": "3",
+        "norma": "No se permite fumar",
+        "sys": "Se aplican pautas de distanciamiento"
+    },
+    {
+        "id": "4",
+        "norma": "No se permiten fiestas",
+        "sys": "Extintores en los pasillos"
+    }
+]

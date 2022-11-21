@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Main /> Deberia mostrar <Main/> correctamente 1`] = `
+<div
+  className="body"
+>
+  <BrowserRouter>
+    <Header
+      cambiarBotton={[Function]}
+      header={
+        Object {
+          "datosUsuario": Array [
+            Object {
+              "apellido": "hola",
+              "nombre": "hola",
+            },
+            false,
+          ],
+          "headerIniciarSesion": false,
+          "headerLogeado": false,
+          "headerRegistrarse": false,
+        }
+      }
+    />
+    <Switch>
+      <Route
+        exact={true}
+        path="/"
+        render={[Function]}
+      />
+      <Route
+        exact={true}
+        path="/login"
+        render={[Function]}
+      />
+      <Route
+        exact={true}
+        path="/registrarme"
+        render={[Function]}
+      />
+      <Route
+        exact={true}
+        path="/detalle/:id"
+        render={[Function]}
+      />
+      <Route
+        path="/detalle/:id/reserva"
+        render={[Function]}
+      />
+    </Switch>
+  </BrowserRouter>
+</div>
+`;

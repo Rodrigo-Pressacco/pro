@@ -1,0 +1,126 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Registro /> Deberia mostrar <Registro/> correctamente 1`] = `
+<div
+  className="div-registro"
+>
+  <h1>
+    Crear Cuenta
+  </h1>
+  <form
+    action=""
+    className="form-registro"
+    method="POST"
+    onMouseOver={[Function]}
+    onSubmit={[Function]}
+  >
+    <div
+      className="divGeneral-nombre-apellido"
+    >
+      <div
+        className="divParticular-nombre-apellido"
+      >
+        <label>
+          Nombre
+        </label>
+        <input
+          className="input-nombre-apellido"
+          id="registro-nombre"
+          name="registronombre"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          type="text"
+        />
+      </div>
+      <div
+        className="divParticular-nombre-apellido"
+      >
+        <label>
+          Apellido
+        </label>
+        <input
+          className="input-nombre-apellido"
+          id="registro-apellido"
+          name="registroapellido"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          type="text"
+        />
+      </div>
+    </div>
+    <div
+      className="div-email-password"
+    >
+      <div
+        className="divParticular-email-password"
+      >
+        <label>
+          Email
+        </label>
+        <input
+          className="input-email-password"
+          id="registro-email"
+          name="registroemail"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          type="email"
+        />
+      </div>
+      <div
+        className="divParticular-email-password"
+      >
+        <label>
+          Contraseña
+        </label>
+        <input
+          className="input-email-password"
+          id="registro-password"
+          name="registropassword"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          type="password"
+        />
+      </div>
+      <div
+        className="divParticular-email-password"
+      >
+        <label>
+          Repetir Contraseña
+        </label>
+        <input
+          className="input-email-password"
+          id="registro-confirmPass"
+          name="registrorepetirPassword"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          type="password"
+        />
+      </div>
+    </div>
+    <div
+      className="div-button"
+    >
+      <button
+        disabled="disabled"
+      >
+        Crear Cuenta
+      </button>
+      <p>
+        ¿Ya tenienes una cuenta? 
+        <Link
+          onClick={[Function]}
+          to="/login"
+        >
+          Iniciar Sesion
+        </Link>
+         
+      </p>
+    </div>
+  </form>
+</div>
+`;

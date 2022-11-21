@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Categorias /> Deberia mostrar <Categorias/> correctamente 1`] = `
+<div
+  className="container"
+>
+  <div
+    className="row"
+  >
+    <h2>
+      Buscar por tipo de alojamiento
+    </h2>
+    <div
+      className="col-md-4"
+    />
+  </div>
+</div>
+`;

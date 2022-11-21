@@ -1,0 +1,58 @@
+## Instalacion de nginx
+sudo apt update
+sudo apt install nginx
+
+# Habilitar que nginx arranque con el server
+sudo systemctl enable nginx
+
+## Instalacion de node y NPM
+curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
+sudo apt-get install -y nodejs
+
+## instalacion de Java
+sudo apt install default-jdk
+
+## Instalacion de Maven
+sudo apt install maven
+
+## Instalacion de Springboot
+# Install dependencies for SDKMAN!:
+sudo apt install unzip zip
+
+# Install SDKMAN!:
+source "/home/username/.sdkman/bin/sdkman-init.sh"
+source "/home/ubuntu/.sdkman/bin/sdkman-init.sh"
+
+# Install Spring CLI:
+sdk install springboot
+
+# Install Gradle:
+sdk install gradle 4.5.1
+
+# Generar Clave SSH
+# comando: ssh-keygen 
+# -> cat /home/ubuntu/.ssh/id_rsa.pub -> copiar y pegar en gitlab la key
+
+# Clonar el repo:
+git clone git@gitlab.com:proyecto-integrador-0321/camada-3/grupo-5.git
+
+# Correar Clean Install de Maven
+cd grupo-5/Backend/ProyectoFinal/
+mvn clean install
+
+# Correr el jar de Java
+java -jar target/ProyectoFinal-0.0.1-SNAPSHOT.jar
+
+############ Front
+## Correr el build
+cd ~/grupo-5/frontend
+# npm install por unica vez
+npm install 
+npm run build
+cd ~
+sudo cp -r /home/ubuntu/grupo-5/frontend/build/. /var/www/html
+sudo service nginx restart
+
+
+
+

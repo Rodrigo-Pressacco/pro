@@ -1,0 +1,106 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css');
+
+.heading {
+    background-color: var(--third-color);
+    color: var(--fourth-color);
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 60px;
+}
+
+.flecha-atras {
+    margin-left: 43px;
+    margin-top: 15px;
+    color: #ffffff;
+    font-size: 30px;
+}
+
+.flecha-atras:hover{    
+    transform: scale(1.4);
+    transition: all .5s ease-in-out; 
+}
+
+.categoria-producto {
+    margin-top: 10px;
+    font-size: 14px;
+    margin-right: 38px;
+    text-transform: uppercase;
+}
+
+.titulo-producto {    
+    margin-right: 38px;
+    font-size: 24px;
+    text-transform: capitalize;
+}
+
+.ubicacion {
+    background-color: var(--fourth-color);
+    display: flex;
+    height: 55px;
+    width: 100%;
+}
+
+.vector-destino {
+    width: 10px;
+    height: 14px;
+    margin: 17px 6px 24px 43px;
+}
+
+.salto-linea {
+    display: block;
+}
+.span-ubicacion {
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--secondary-color);
+    margin-top: 17px;
+}
+
+.compartir {
+    margin-right: 18px;
+    height: 18px;
+    width: 18px;
+}
+
+.detalles-iconos i {
+    font-size: 20px;
+    color: var(--third-color);
+}
+
+.bloque-imagenes {
+    margin-top: 18px;
+    margin-left: 43px;
+    margin-right: 38px;
+}
+
+.carousel .thumb{
+    overflow: unset;
+    height: 110px;
+}
+
+@media (max-width: 800px) {
+    .detalles-iconos {
+        margin: 18px 38px 12px 43px;
+    }
+}
+
+@media (max-width: 485px) {
+    .detalles-iconos {
+        position: absolute;
+        z-index: 10;
+        margin-left: 10px;
+    }
+
+    .detalles-iconos i {
+        color: #ffffff;
+    }
+
+    .vector-destino {
+        margin-left: 10px;
+    }
+
+    .ubicacion {
+        height: 70px;
+    }
+}

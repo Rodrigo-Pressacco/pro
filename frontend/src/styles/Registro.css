@@ -1,0 +1,142 @@
+.div-registro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 78px;
+}
+
+.div-registro h1{
+    color: var(--main-color);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+}
+
+.form-registro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.divGeneral-nombre-apellido{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 448px;
+}
+
+.div-email-password{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 448px;
+}
+
+.div-button{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 448px;
+    padding-top: 29px;
+    margin-bottom: 77px;
+    
+    color: var(--secondary-color);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+}
+
+.divParticular-nombre-apellido{
+    display: flex;
+    flex-direction: column;
+    width: 46.5%;
+}
+
+.divParticular-email-password{
+    width: 100%;
+}
+
+.input-nombre-apellido,
+.input-email-password{
+    height: 40px;
+    padding-left: 13px;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    border: none;
+}
+
+.input-nombre-apellido,
+.input-email-password{
+    width: 100%;
+    margin: 15px 0;
+}
+
+.input-nombre-apellido,
+.input-email-password,
+.form-registro label{
+    color: var(--secondary-color);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+}
+
+.form-registro label{
+    margin-top: 17px;
+}
+
+.div-button button,.register-button{
+    background: var(--main-color);
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.12);
+    border-radius: 5px;
+    border: none;
+    height: 40px;
+    width: 46%;
+    margin-bottom: 15px;
+    
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.register-button{
+    text-decoration: none;
+    line-height: 40px;
+}
+.errorsForm{
+    display: block;
+    text-align: end;
+    color: #FF0000;
+    font-size: 12px;
+}
+.registro-error{    
+    background: #FFE1E1;
+    border: 1px solid #FF0000;
+    box-sizing: border-box;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.15);
+}
+@media (max-width: 777px){
+    .divGeneral-nombre-apellido{
+        flex-direction: column;
+        width: 346px;
+    }
+    
+    .divParticular-nombre-apellido,
+    .div-button button {
+        width: 100%;
+    }
+    
+    .div-email-password,
+    .div-button {
+        width: 346px;
+    }
+}
+

@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Footer/> Deberia mostrar <Footer/> correctamente 1`] = `
+<footer
+  className="footer"
+>
+  <p>
+    ©2021 Neo Travel
+  </p>
+  <ul
+    className="social-network"
+  >
+    <li>
+      <img
+        alt="facebook"
+        src="../images/facebook.png"
+      />
+    </li>
+    <li>
+      <img
+        alt="linkedin"
+        src="../images/linkedin.png"
+      />
+    </li>
+    <li>
+      <img
+        alt="twitter"
+        src="../images/twitter.png"
+      />
+    </li>
+    <li>
+      <img
+        alt="instagram"
+        src="../images/instagram.png"
+      />
+    </li>
+  </ul>
+</footer>
+`;

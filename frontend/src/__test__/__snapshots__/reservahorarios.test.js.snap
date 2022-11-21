@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ReservaHorarios /> Deberia mostrar <ReservaHorarios/> correctamente 1`] = `
+<div
+  className="div-horarios"
+>
+  <p>
+    <i
+      className="far fa-check-circle"
+    />
+     Tu habitación va a estar lista para el check-in entre las 10:00 AM y las 11:00 PM
+  </p>
+  <label>
+    Indique el horario de llegada:
+  </label>
+  <div
+    className="show-horarios"
+  >
+    <input
+      id=""
+      name=""
+      onFocus={[Function]}
+      placeholder="* Seleccionar hora"
+      readOnly={true}
+      type="text"
+      value=""
+    />
+  </div>
+</div>
+`;

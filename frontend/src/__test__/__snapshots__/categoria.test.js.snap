@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Categoria /> Deberia mostrar <Categoria/> correctamente 1`] = `
+<div>
+  <div
+    className="categoria-body"
+  >
+    <img
+      alt="Categoria"
+    />
+    <h2 />
+    <p />
+  </div>
+</div>
+`;

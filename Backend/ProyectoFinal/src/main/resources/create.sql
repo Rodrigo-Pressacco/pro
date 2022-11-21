@@ -1,0 +1,6 @@
+create table IF NOT EXISTS categorias (id int auto_increment primary key,titulo varchar(45),descripcion varchar (255),url_imagen varchar (255));
+
+INSERT INTO categorias (titulo, descripcion , url_imagen) values ( 'HOTELES','Un lugar no solo para Dormir.','https://images.unsplash.com/photo-1590073242678-70ee3fc28e8e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1121&q=80');
+INSERT INTO categorias (titulo, descripcion , url_imagen) values ( 'HOSTELS','Un lugar para conocer gente nueva, en cuartos compartidos!','https://images.unsplash.com/photo-1520277739336-7bf67edfa768?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80');
+INSERT INTO categorias (titulo, descripcion , url_imagen) values ( 'DEPARTAMENTOS','Siéntete como en la comodidad de tu casa','https://images.unsplash.com/photo-1554995207-c18c203602cb?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80');
+INSERT INTO categorias (titulo, descripcion , url_imagen) values ( 'BED & BREAKFAST','Podés encontrar un buen desayuno y cama en un solo lugar','https://images.unsplash.com/photo-1613618948931-efbc3e6f9775?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80');

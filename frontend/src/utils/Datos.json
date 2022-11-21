@@ -1,0 +1,22 @@
+[
+        {
+            "name": "Hoteles",
+            "imagen": "https://cdn.pixabay.com/photo/2020/10/18/09/16/bedroom-5664221_960_720.jpg",
+            "cantidad": "622.123 Hoteles"
+        },
+        {
+            "name": "Hostels",
+            "imagen": "https://cdn.pixabay.com/photo/2016/07/08/23/36/beach-house-1505461_960_720.jpg",
+            "cantidad": "504.214 Hostels"
+        },
+        {
+            "name": "Departamentos",
+            "imagen": "https://cdn.pixabay.com/photo/2015/03/26/09/42/bedroom-690129_960_720.jpg",
+            "cantidad": "832.113 Departamentos"
+        },
+        {
+            "name": "Bed and Breakfast",
+            "imagen": "https://cdn.pixabay.com/photo/2015/06/08/15/02/breakfast-801827_960_720.jpg",
+            "cantidad": "301.441 Bed and Breakfast"
+        }
+]

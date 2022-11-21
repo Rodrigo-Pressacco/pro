@@ -1,0 +1,65 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<DetallesMapa /> Deberia mostrar <DetallesMapa/> correctamente 1`] = `
+<div>
+  <div
+    className="div-detalles-h3"
+  >
+    <h3
+      className="div-mapa-h3"
+    >
+      ¿Donde vas a estar?
+    </h3>
+  </div>
+  <div
+    className="div-nombre-mapa"
+  >
+    <h4>
+      Cleveland
+      , 
+      Estados Unidos
+    </h4>
+    <div
+      className="div-mapa"
+    >
+      <LoadScript
+        googleMapsApiKey="AIzaSyDjmQN7EeUNEHpE3WuoXRcTbwkUj1LFYzk"
+        id="script-loader"
+        loadingElement={
+          <p>
+            Cargando
+          </p>
+        }
+        version="weekly"
+      >
+        <GoogleMap
+          center={
+            Object {
+              "lat": undefined,
+              "lng": undefined,
+            }
+          }
+          mapContainerStyle={
+            Object {
+              "height": "540px",
+              "width": "100%",
+            }
+          }
+          onClick={[Function]}
+          zoom={15}
+        >
+          <Marker
+            onClick={[Function]}
+            position={
+              Object {
+                "lat": undefined,
+                "lng": undefined,
+              }
+            }
+          />
+        </GoogleMap>
+      </LoadScript>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css");
+
+:root {
+    --main-color: #1DBEB4;
+    --secondary-color: #383B58;
+    --third-color: #545776;
+    --fourth-color: #F3F1ED;
+}
+
+* {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+@import url('index.css');
+
+.card-alojamiento {
+    display: flex;
+    flex-direction: row;
+    background-color: #fff;
+    width: 47%;
+    height: 283px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 8px rgba(88, 88, 88, 0.5);
+    margin-top: 15px;
+}
+
+.contenedor-imagen{
+    width: 50%;
+    position: relative;
+    align-self: left;
+}
+
+.contenedor-imagen i {
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    font-size: 25px;
+    text-align: right;
+    color: white;
+}
+
+.verMas {
+    font-weight: 700;
+    font-size: 16pt;
+    text-align: center;
+    text-decoration: none;
+    padding-top: 6px;
+    align-self: center;
+    bottom: 12px;
+    height: 40px;
+    width: 93%;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    filter: drop-shadow(0px 2px 4px rgba(0, 0, 0, 0.12));
+    background-color: var(--main-color);
+    margin-top: 10px;
+    position: absolute;
+}
+
+.verMas:hover{
+    background-color: white;
+    color: var(--main-color);
+    border: 2px solid var(--main-color);
+    transition: all .2s ease-in-out;
+}
+
+.contenedor-imagen img{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    position: center;
+    border-radius: 15px;
+}
+
+.descripcion{
+    padding: 0 10px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 50%;
+    height: 100%;
+}
+
+
+/* 
+/////////////////////////////////////////////////////////
+//    DIEGO PUSO AQUÍ LOS ESTILOS DE LOS ICONOS        //
+/////////////////////////////////////////////////////////
+*/
+.iconos {
+    color:  #383B58;
+    font-size: 18px !important;
+}
+
+.iconos i{
+    margin: 0 5px 10px;
+    font-family: 'Font Awesome 5 Pro';
+}
+
+.ratingStar {
+    color: #1DBEB4;
+    font-size: medium !important;
+
+}
+
+#numberRating {
+    border: 2px solid #000000;
+    background-color: #383B58;
+    border-color: #383B58;
+    color: #F3F1ED;
+    border-radius: 10px;
+    width: 9%;
+    height: 9%;
+    text-align: center;
+    font-weight: 900;
+    font-size: large;
+    position: absolute;
+    top: 5%;
+    right: 5%;
+}
+
+#calificacion {
+    position: absolute;
+    top: 15%;
+    right: 5%;
+    font-size: small;
+    font-weight: bolder;
+    color: #383B58;
+}
+
+
+
+
+
+
+#Categoria {
+    top: 21px;
+    font-weight: 700;
+    font-size: 12pt;
+    color: var(--secondary-color);
+    opacity: 0.5;
+    margin-top: 12px;
+}
+
+#Nombre{
+    top: 40px;
+    font-weight: 700;
+    font-size: 17pt;
+    color: var(--secondary-color);
+    margin-bottom: 15px;
+}
+
+#Ubicacion {
+    top: 89px;
+    font-weight: 500;
+    font-size: 12pt;
+    color: var(--secondary-color);
+    margin-bottom: 15px;    
+    display: inline-flex;
+}
+#Desc{
+    top: 171px;
+    height: 52px;
+    font-weight: 500;
+    font-size: 12pt;
+    color: var(--third-color);
+    line-height: 16.41px;
+    margin-bottom: 15px;
+}
+
+@media (max-width: 800px) {
+    .card-alojamiento {
+        width: 100%;
+        height: 279px;
+    }
+    .verMas {
+        width: 97%;
+    }
+
+    #Categoria {
+        top: 18px;
+    }
+    
+    #Nombre{
+        top: 37px;
+    }
+    #Ubicacion {
+        top: 86px;
+    }
+    #Desc{
+        top: 171px;
+    }
+}
+
+
+@media (max-width: 485px) {
+    .card-alojamiento {
+        width: 393px;
+        height: 491px;
+        flex-direction: column;
+        display: flex;
+        justify-content: space-evenly;
+        margin: 10px auto;
+    }
+    .descripcion{
+        position: relative;
+        padding-top: 10px;
+        width: 393px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contenedor-imagen {
+        position: relative;
+        width: 393px;
+        height: 231px;
+        position: center;
+        border-radius: 15px;
+    }
+
+    .verMas {
+        width: 331px;
+        margin-top: 5px;
+    }
+
+    #Categoria {
+        top: 18px;
+        margin-top: 0;
+    }
+    
+    #Nombre{
+        top: 37px;
+    }
+    #Ubicacion {
+        top: 86px;
+    }
+    #Desc{
+        top: 125px;
+    }
+
+
+}

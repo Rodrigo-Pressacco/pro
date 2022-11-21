@@ -1,0 +1,96 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Buscador /> Deberia mostrar <Buscador/> correctamente 1`] = `
+<div
+  className="Buscador"
+>
+  <h1>
+    Buscar ofertas en hoteles, casas y mucho más
+  </h1>
+  <div
+    className="div-Buscador"
+  >
+    <div
+      className="div-buscarLugar"
+    >
+      <input
+        className="form-buscadorDestino"
+        id="buscadorDestino"
+        name="buscadorDestino"
+        onChange={[Function]}
+        placeholder="  ¿A donde vamos?"
+        type="search"
+      />
+    </div>
+    <div
+      className="div-calendario"
+    >
+      <r
+        allowSameDay={false}
+        className="form-calendarDate"
+        customTimeInput={null}
+        dateFormat=" dd 'de' MMM. yyyy"
+        dateFormatCalendar="LLLL yyyy"
+        disabled={false}
+        disabledKeyboardNavigation={false}
+        dropdownMode="scroll"
+        enableTabLoop={true}
+        endDate={null}
+        excludeScrollbar={true}
+        focusSelectedMonth={false}
+        minDate={2021-11-24T22:39:36.061Z}
+        monthsShown={2}
+        nextMonthAriaLabel="Next Month"
+        nextMonthButtonLabel="Next Month"
+        nextYearAriaLabel="Next Year"
+        nextYearButtonLabel="Next Year"
+        onBlur={[Function]}
+        onCalendarClose={[Function]}
+        onCalendarOpen={[Function]}
+        onChange={[Function]}
+        onClickOutside={[Function]}
+        onFocus={[Function]}
+        onInputClick={[Function]}
+        onInputError={[Function]}
+        onKeyDown={[Function]}
+        onMonthChange={[Function]}
+        onSelect={[Function]}
+        onYearChange={[Function]}
+        placeholderText="   Check in - Check out"
+        preventOpenOnFocus={false}
+        previousMonthAriaLabel="Previous Month"
+        previousMonthButtonLabel="Previous Month"
+        previousYearAriaLabel="Previous Year"
+        previousYearButtonLabel="Previous Year"
+        readOnly={false}
+        renderDayContents={[Function]}
+        selectsRange={true}
+        shouldCloseOnSelect={false}
+        showFourColumnMonthYearPicker={false}
+        showFullMonthYearPicker={false}
+        showMonthYearPicker={false}
+        showPopperArrow={true}
+        showPreviousMonths={false}
+        showQuarterYearPicker={false}
+        showTimeInput={false}
+        showTimeSelect={false}
+        showTwoColumnMonthYearPicker={false}
+        showYearPicker={false}
+        startDate={null}
+        strictParsing={false}
+        timeCaption="Time"
+        timeInputLabel="Time"
+        timeIntervals={30}
+        withPortal={false}
+        yearItemNumber={12}
+      />
+    </div>
+    <button
+      className="form-button"
+      onClick={[Function]}
+    >
+      Buscar
+    </button>
+  </div>
+</div>
+`;

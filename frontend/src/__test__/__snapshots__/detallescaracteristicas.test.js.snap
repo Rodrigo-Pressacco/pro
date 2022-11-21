@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<DetallesCaracteristicas /> Deberia mostrar <DetallesCaracteristicas/> correctamente 1`] = `
+<div
+  className="div-detalles-caracteristicas"
+>
+  <div
+    className="div-detalles-h3"
+  >
+    <h3>
+      ¿Que ofrece este lugar?
+    </h3>
+  </div>
+  <div
+    className="div-datosCar"
+  />
+</div>
+`;

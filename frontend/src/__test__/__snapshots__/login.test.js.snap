@@ -1,0 +1,64 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Login /> Deberia mostrar <Login/> correctamente 1`] = `
+<div
+  className="div-login"
+>
+  <h1>
+    Ingresar
+  </h1>
+  <form
+    className="form-Login"
+  >
+    <div
+      className="div-email-password-login"
+    >
+      <label>
+        Email:
+      </label>
+      <input
+        className="login-email-password"
+        id="login-email"
+        name="login-email"
+        onBlur={[Function]}
+        onChange={[Function]}
+        type="email"
+      />
+    </div>
+    <div
+      className="div-email-password-login"
+    >
+      <label>
+        Contraseña:
+      </label>
+      <input
+        className="login-email-password"
+        id="login-password"
+        name="login-password"
+        onBlur={[Function]}
+        onChange={[Function]}
+        type="password"
+      />
+    </div>
+    <div
+      className="div-button"
+    >
+      <button
+        className="login-link login-button"
+        onClick={[Function]}
+      >
+        Ingresar
+      </button>
+      <p>
+        ¿Aún no tenes cuenta? 
+        <Link
+          onClick={[Function]}
+          to="/registrarme"
+        >
+          Registrate
+        </Link>
+      </p>
+    </div>
+  </form>
+</div>
+`;

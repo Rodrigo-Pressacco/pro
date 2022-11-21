@@ -1,0 +1,131 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<DetallesNormas /> Deberia mostrar <DetallesNormas/> correctamente 1`] = `
+<div
+  className="div-detalles-caracteristicas"
+>
+  <div
+    className="div-detalles-h3"
+  >
+    <h3>
+      Que tenés que saber
+    </h3>
+  </div>
+  <div
+    className="columnaNormas"
+  >
+    <div
+      className="columnax3"
+    >
+      <h4
+        className="tituloNorma"
+      >
+        Normas de la Casa
+      </h4>
+      <ElementosNormas
+        element={
+          Object {
+            "id": "1",
+            "norma": "No se permiten mascotas",
+            "sys": "Se siguen las normas de bioseguridad",
+          }
+        }
+        key="1"
+      />
+      <ElementosNormas
+        element={
+          Object {
+            "id": "2",
+            "norma": "Check - out 3:00 p.m",
+            "sys": "Detectores de humo",
+          }
+        }
+        key="2"
+      />
+      <ElementosNormas
+        element={
+          Object {
+            "id": "3",
+            "norma": "No se permite fumar",
+            "sys": "Se aplican pautas de distanciamiento",
+          }
+        }
+        key="3"
+      />
+      <ElementosNormas
+        element={
+          Object {
+            "id": "4",
+            "norma": "No se permiten fiestas",
+            "sys": "Extintores en los pasillos",
+          }
+        }
+        key="4"
+      />
+    </div>
+    <div
+      className="columnax3"
+    >
+      <h4
+        className="tituloNorma"
+      >
+        Salud y seguridad
+      </h4>
+      <ElementosSys
+        element={
+          Object {
+            "id": "1",
+            "norma": "No se permiten mascotas",
+            "sys": "Se siguen las normas de bioseguridad",
+          }
+        }
+        key="1"
+      />
+      <ElementosSys
+        element={
+          Object {
+            "id": "2",
+            "norma": "Check - out 3:00 p.m",
+            "sys": "Detectores de humo",
+          }
+        }
+        key="2"
+      />
+      <ElementosSys
+        element={
+          Object {
+            "id": "3",
+            "norma": "No se permite fumar",
+            "sys": "Se aplican pautas de distanciamiento",
+          }
+        }
+        key="3"
+      />
+      <ElementosSys
+        element={
+          Object {
+            "id": "4",
+            "norma": "No se permiten fiestas",
+            "sys": "Extintores en los pasillos",
+          }
+        }
+        key="4"
+      />
+    </div>
+    <div
+      className="columnax3"
+    >
+      <h4
+        className="tituloNorma"
+      >
+        Política de cancelación
+      </h4>
+      <p
+        className="textoNorma textoNormaEspecifico"
+      >
+         Agregá las fechas de tu viaje para obtener los detalles de cancelación de esta estadía.
+      </p>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Listado /> Deberia mostrar <Listado/> correctamente 1`] = `
+<div
+  className="div-General-h3"
+>
+  <h3>
+    Recomendaciones
+  </h3>
+  <div
+    className="contenedor-listado"
+  />
+</div>
+`;

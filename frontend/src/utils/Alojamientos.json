@@ -1,0 +1,174 @@
+[   
+    
+    {
+        "urlImg": "https://media.istockphoto.com/photos/downtown-cleveland-hotel-entrance-and-waiting-taxi-cab-picture-id472899538?b=1&k=20&m=472899538&s=170667a&w=0&h=oGDM26vWKgcKA3ARp2da-H4St2dMEhJg23TTBeJgPDE=",
+        "categoria":"Hoteles",
+        "name": "Cleeveland Hotel",
+        "ubicacion": "Cleeveland, Estados Unidos",
+        "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt itaque dolor sapiente laboriosam.",
+
+        "icono1": "credit_card",
+        "icono2": "wifi",
+        "icono3": "pool",
+        "icono4": "tv",
+
+        "star1": "star",
+        "star2": "star",
+        "star3": "star",
+        "star4": "star",
+        "star5": "star_half",
+        "numero": "8",
+        "calificacion": "Muy bueno"
+    },
+
+    {
+        "urlImg": "https://images.unsplash.com/photo-1582719508461-905c673771fd?ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8aG90ZWx8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+        "categoria":"Hoteles",
+        "name": "Cao Cao Hotel",
+        "ubicacion": "Playa del Carmen, Cancún, México",
+        "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt itaque dolor sapiente laboriosam.",
+        
+        "icono1": "pets",
+        "icono2": "credit_card",
+        "icono3": "wifi",
+        "icono4": "kitchen",
+
+        "star1": "star",
+        "star2": "star",
+        "star3": "star",
+        "star4": "star_half",
+        "star5": "star_border",
+        "numero": "7",
+        "calificacion": "Regular"
+    },
+
+    {
+        "urlImg": "https://images.unsplash.com/photo-1566073771259-6a8506099945?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8aG90ZWx8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
+        "categoria":"Bed and Breakfast",
+        "name": "Patagonia B&B",
+        "ubicacion": "San Carlos de Bariloche, Neuquén, Argentina",
+        "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt itaque dolor sapiente laboriosam.",
+        
+        "icono1": "room_service",
+        "icono2": "wifi",
+        "icono3": "lunch_dining",
+        "icono4": "tv",
+
+        "star1": "star",
+        "star2": "star",
+        "star3": "star",
+        "star4": "star",
+        "star5": "star",
+        "numero": "10",
+        "calificacion": "Excelente"
+    },
+
+    {
+        "urlImg": "https://media.istockphoto.com/photos/open-door-to-guest-bedroom-with-a-cute-sign-that-says-be-our-guest-picture-id1184920990?b=1&k=20&m=1184920990&s=170667a&w=0&h=4CLxWHhU62z00yezmhCUtDaFJ4ZIXvDuFa-rFHixt6w=",
+        "categoria":"Bed and Breakfast",
+        "name": "Bora Bora B&B",
+        "ubicacion": "Bora Bora, Polinesia Francesa",
+        "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt itaque dolor sapiente laboriosam.",
+        
+        "icono1": "credit_card",
+        "icono2": "wifi",
+        "icono3": "local_taxi",
+        "icono4": "credit_card",
+
+        "star1": "star",
+        "star2": "star",
+        "star3": "star",
+        "star4": "star",
+        "star5": "star_half",
+        "numero": "9",
+        "calificacion": "Excelente"
+        
+    },
+
+    {
+        "urlImg": "https://media.istockphoto.com/photos/dormitory-room-in-the-modern-hostel-picture-id910999556?b=1&k=20&m=910999556&s=170667a&w=0&h=8Ppqwt74V-aaXr4vN2iu5XOv87H0nhJh64am-0bYPLc=",
+        "categoria":"Hostels",
+        "name": "Adventure Hostel",
+        "ubicacion": "Manhattan, New York, Estados Unidos",
+        "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt itaque dolor sapiente laboriosam.",
+
+        "icono1": "credit_card",
+        "icono2": "wifi",
+        "icono3": "pool",
+        "icono4": "tv",
+
+        "star1": "star",
+        "star2": "star",
+        "star3": "star",
+        "star4": "star",
+        "star5": "star_half",
+        "numero": "8",
+        "calificacion": "Muy bueno"
+
+    },
+
+    {
+        "urlImg": "https://media.istockphoto.com/photos/youth-hostel-dorm-room-picture-id182498079?b=1&k=20&m=182498079&s=170667a&w=0&h=Atdn_7sfYF1rBo7JjGGHxUTysDq_lHnKLOVbWnXbLl0=",
+        "categoria":"Hostels",
+        "name": "Experience Hostel",
+        "ubicacion": "Las Vegas, Nevada, Estados Unidos",
+        "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt itaque dolor sapiente laboriosam.",
+        
+        "icono1": "pets",
+        "icono2": "credit_card",
+        "icono3": "wifi",
+        "icono4": "kitchen",
+
+        "star1": "star",
+        "star2": "star",
+        "star3": "star",
+        "star4": "star",
+        "star5": "star_border",
+        "numero": "9",
+        "calificacion": "Excelente"
+
+
+    },
+
+    {
+        "urlImg": "https://media.istockphoto.com/photos/modern-living-room-interior-3d-render-picture-id1293762741?b=1&k=20&m=1293762741&s=170667a&w=0&h=2RI8SmBN4MrEZuTvdwRzaeB887x-dukFcQBpyQ-qwS4=",
+        "categoria":"Departamentos",
+        "name": "Ship Apartments",
+        "ubicacion": "Dubai, Emiratos Árabes Unidos",
+        "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt itaque dolor sapiente laboriosam." ,
+        
+        "icono1": "credit_card",
+        "icono2": "wifi",
+        "icono3": "local_taxi",
+        "icono4": "credit_card",
+
+        "star1": "star",
+        "star2": "star",
+        "star3": "star",
+        "star4": "star",
+        "star5": "star_border",
+        "numero": "8",
+        "calificacion": "Muy bueno"
+        
+    },
+    {
+        "urlImg": "https://media.istockphoto.com/photos/digitally-generated-domestic-bedroom-interior-picture-id1266344101?b=1&k=20&m=1266344101&s=170667a&w=0&h=_mEuZIgaXh1cRjzlrGybXRoCfGqKLvPiL1EP0LGOG2o=",
+        "categoria":"Departamentos",
+        "name": "le Petit Apartments",
+        "ubicacion": "París, Francia",
+        "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt itaque dolor sapiente laboriosam." ,
+        
+        "icono1": "credit_card",
+        "icono2": "wifi",
+        "icono3": "local_taxi",
+        "icono4": "credit_card",
+
+        "star1": "star",
+        "star2": "star",
+        "star3": "star",
+        "star4": "star_border",
+        "star5": "star_border",
+        "numero": "10",
+        "calificacion": "Excelente"
+    }
+]

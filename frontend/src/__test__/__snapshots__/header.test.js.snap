@@ -1,0 +1,87 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Header /> Deberia mostrar <Header/> correctamente 1`] = `
+<header
+  className="header"
+>
+  <div
+    className="header-left"
+  >
+    <Link
+      onClick={[Function]}
+      to="/"
+    >
+      <img
+        alt="logo1"
+        src="../images/logoNeoTravel.png"
+      />
+    </Link>
+    <Link
+      className="frase"
+      onClick={[Function]}
+      to="/"
+    >
+      <p>
+        Porque todo comienza con un buen lugar
+      </p>
+    </Link>
+  </div>
+  <div
+    className="header-right"
+  >
+    <input
+      id="menu-bar"
+      type="checkbox"
+    />
+    <img
+      alt=""
+      className="menu-icon"
+      src="../images/menu.svg"
+    />
+    <span
+      id="menu-span-bar"
+    >
+      X
+    </span>
+    <div
+      className="menuH"
+    >
+      MENÚ
+    </div>
+    <div
+      className="buttons"
+    >
+      <hr />
+    </div>
+     
+    <ul
+      className="social-network-header"
+    >
+      <li>
+        <img
+          alt="facebook"
+          src="../images/facebookC3.png"
+        />
+      </li>
+      <li>
+        <img
+          alt="linkedin"
+          src="../images/linkedinC3.png"
+        />
+      </li>
+      <li>
+        <img
+          alt="twitter"
+          src="../images/twitterC3.png"
+        />
+      </li>
+      <li>
+        <img
+          alt="instagram"
+          src="../images/instagramC3.png"
+        />
+      </li>
+    </ul>
+  </div>
+</header>
+`;
